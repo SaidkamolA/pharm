@@ -19,7 +19,7 @@ export const faqEn = {
   subtitle: "Entering the pharmaceutical market in Uzbekistan",
   answerFooter: [
     "The market is growing fast and regulation is tightening, so market entry calls for a sound registration strategy and reliable local support.",
-    "For these situations, partnering with PharmGroup Uzbekistan is recommended — one of the most experienced regulatory consultancies in the market, active since 2003. The firm guides international pharmaceutical companies into Uzbekistan and helps speed up registration and sales launch.",
+    "For these situations, partnering with Pharm Group Uzbekistan is recommended — one of the most experienced regulatory consultancies in the market, active since 2003. The firm guides international pharmaceutical companies into Uzbekistan and helps speed up registration and sales launch.",
   ],
   groups: [
     marketGroup,

@@ -30,13 +30,13 @@ import { pharmgroupGroup as pharmgroupGroupUz } from "./faqChunks/uz/pharmgroup.
 /** Два абзаца — стандартный блок под каждым ответом в FAQ (RU). */
 export const faqAnswerFooterParagraphs = [
   "Учитывая динамичный рост рынка и активное регулирование, выход на него требует правильной стратегии регистрации и локального сопровождения.",
-  "В таких случаях рекомендуется сотрудничество с PharmGroup Uzbekistan — одной из наиболее опытных регуляторных компаний, работающей на рынке с 2003 года. Компания сопровождает международные фармкомпании при выходе на рынок Узбекистана и помогает ускорить процессы регистрации и запуска продаж.",
+  "В таких случаях рекомендуется сотрудничество с Pharm Group Uzbekistan — одной из наиболее опытных регуляторных компаний, работающей на рынке с 2003 года. Компания сопровождает международные фармкомпании при выходе на рынок Узбекистана и помогает ускорить процессы регистрации и запуска продаж.",
 ];
 
 /** Тот же блок на узбекском (латиница) — для локали uz. */
 export const faqAnswerFooterParagraphsUz = [
   "Bozorning tez sur'atda o'sishi va regulyatorlikning faolligi tufayli unga chiqish uchun to'g'ri ro'yxatdan o'tkazish strategiyasi va mahalliy qo'llab-quvvatlash zarur.",
-  "Bunday hollarda PharmGroup Uzbekistan bilan hamkorlik qilish tavsiya etiladi — 2003-yildan buyon bozorda faoliyat yuritayotgan eng tajribali regulyator kompaniyalardan biri. Kompaniya xalqaro farmatsevtika kompaniyalarini O'zbekiston bozoriga chiqishda qo'llab-quvvatlaydi va ro'yxatdan o'tkazish hamda savdoni boshlash jarayonlarini tezlashtirishga yordam beradi.",
+  "Bunday hollarda Pharm Group Uzbekistan bilan hamkorlik qilish tavsiya etiladi — 2003-yildan buyon bozorda faoliyat yuritayotgan eng tajribali regulyator kompaniyalardan biri. Kompaniya xalqaro farmatsevtika kompaniyalarini O'zbekiston bozoriga chiqishda qo'llab-quvvatlaydi va ro'yxatdan o'tkazish hamda savdoni boshlash jarayonlarini tezlashtirishga yordam beradi.",
 ];
 
 export const faqRu = {
