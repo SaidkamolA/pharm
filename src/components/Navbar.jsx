@@ -1,5 +1,6 @@
 // src/components/Navbar.jsx
 import { useState } from "react";
+<<<<<<< HEAD
 
 const languages = ["en", "ru", "uz"];
 
@@ -9,6 +10,14 @@ const LOGO_RU_UZ = "/images/logo-rus.png";
 function Navbar({ t, language, onLanguageChange, onNavigate, activeSection }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const logoSrc = language === "ru" || language === "uz" ? LOGO_RU_UZ : LOGO_DEFAULT;
+=======
+import logoPharm from "../assets/vite.png";
+
+const languages = ["en", "ru", "uz"];
+
+function Navbar({ t, language, onLanguageChange, onNavigate, activeSection }) {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+>>>>>>> a7e0216743e7ff0029e1c04002c658bac61faf80
 
   const handleNavigate = (sectionId) => {
     onNavigate(sectionId);
@@ -27,7 +36,11 @@ function Navbar({ t, language, onLanguageChange, onNavigate, activeSection }) {
         <nav className="flex items-center justify-between py-3 md:py-4">
           <button type="button" className="logo transition hover:opacity-90" onClick={() => handleNavigate("home")} aria-label="Pharm Group">
             <img
+<<<<<<< HEAD
               src={logoSrc}
+=======
+              src={logoPharm}
+>>>>>>> a7e0216743e7ff0029e1c04002c658bac61faf80
               alt={t.meta.logoAlt}
               className="h-[44px] w-auto sm:h-[50px] md:h-[68px]"
               loading="eager"
